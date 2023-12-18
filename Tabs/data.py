@@ -49,7 +49,7 @@ def app(df):
     st.markdown("""
                     <p style="font-size:24px">
                         <a 
-                            href="https://www.kaggle.com/uciml/pima-indians-Demenia-database"
+                            href="https://www.kaggle.com/datasets/brijlaldhankour/mental-ailment-detection-from-eeg/data"
                             target=_blank
                             style="text-decoration:none;"
                         >Get Dataset
