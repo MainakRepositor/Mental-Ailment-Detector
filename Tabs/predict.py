@@ -80,10 +80,10 @@ def app(df, X, y):
             st.warning("The person has Schizophrenia ")
         elif (T7 > 4300 or AF3 > 4400 and O2 > 4400):
             st.error("The person has Bi-polar Syndrome")
-        elif (FC6 > 4200 and AF4 > 4250 and F8 > 4350 and O1 > 4500):
+        if(FC6 > 4200 and AF4 > 4250 and F8 > 4350 and O1 > 4500):
             st.error("The person has PTSD (Post Traumatic Stress Disorder)")
         else:
-            st.info("Risk of diseases, kindly consult psychologist")
+            st.success("No risk of diseases, still kindly consult psychologist")
         # Print teh score of the model 
         st.sidebar.success("The model used is trusted by psychologists and has an accuracy of " + str(round((score*100))) + "%")
         
