@@ -76,7 +76,7 @@ def app(df, X, y):
         st.info("Predicted Sucessfully")
 
         # Print the output according to the prediction
-        if (T7 < 4200 and AF3 < 4200 and AF4 < 4200):
+        if (T7 < 2500 and AF3 < 2500 and AF4 < 2500):
             st.success("The person is mentally sound")
         elif (F7 > 4200 and F3 > 4300 or FC5 > 4200 and P7 > 4300):
             st.warning("The person has Schizophrenia ")
