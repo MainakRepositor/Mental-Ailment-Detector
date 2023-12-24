@@ -30,7 +30,7 @@ def app(df, X, y):
     st.sidebar.markdown('''
     <ul><li><b>Schizophrenia</b>:  F3, F7, FC5 and P7</li>
         <li><b>Bipolar Syndrome</b>: T7, AF3 and O2</li>
-        <li><b>Post Traumatic Stress Disorder</b>: FC6, AF4, F3, O1</li>
+        <li><b>Post Traumatic Stress Disorder</b>: FC6, AF4, F8, O1</li>
     </ul>
                         
     These are electrodes of the EEG machine which get triggered by particular signals emitted from particular areas of brain which show anomalous activities and peak signals in cases of the diseases mentioned.
